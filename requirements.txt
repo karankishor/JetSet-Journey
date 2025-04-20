@@ -1,0 +1,7 @@
+Django==4.2.7
+mysqlclient==2.2.0
+python-dotenv==1.0.0
+requests==2.31.0
+googlemaps==4.10.0
+openweathermap==0.1.0
+twilio==8.10.0 

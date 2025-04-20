@@ -3,7 +3,7 @@
 This tutorial will teach you about authentication and registration in django.
 
 ## Getting Started
-
+### base.html === Navbar
 ### 1. Setting up a Django Project
 
 - Create and enter the desired directory for project setup.
