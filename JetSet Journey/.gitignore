@@ -1,0 +1,68 @@
+EMAIL_HOST_USER
+EMAIL_HOST_PASSWORD
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*/migrations/
+!*/migrations/__init__.py
+
+# Static files
+staticfiles/
+static/
+
+# Media files (if any)
+media/
+
+# Django secret and environment files
+.env
+.env.local
+secrets.json
+*.env
+
+# SQLite database
+*.sqlite3
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Pip wheel cache
+*.whl
+pip-wheel-metadata/
+
+# MyPy
+.mypy_cache/
+
+# Pytest
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Local settings
+local_settings.py
+config/settings_local.py
