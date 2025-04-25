@@ -267,7 +267,14 @@ def create_trip(request):
     
     return render(request, 'core/create_trip.html')
 
-
+    if request.method == 'POST':
+        # Handle form submission (optional)
+        name = request.POST.get('name')
+        email = request.POST.get('email')
+        message = request.POST.get('message')
+        # Add logic to process the form (e.g., send an email)
+        return render(request, 'core/contact.html', {'success': True})
+    return render(request, 'core/contact.html')
 
 def update_trip(request, trip_id):
     trip = get_object_or_404(Trip, id=trip_id, user=request.user)
